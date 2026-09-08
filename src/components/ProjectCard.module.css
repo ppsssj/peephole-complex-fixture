@@ -1,0 +1,32 @@
+.card {
+  --accent: #4f7cff;
+  min-height: 270px;
+  padding: 22px;
+  border: 1px solid #dfe4ea;
+  border-top: 3px solid var(--accent);
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.card:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(27,39,60,.07); }
+.topline { display: flex; align-items: center; justify-content: space-between; }
+.status { padding: 5px 8px; border-radius: 6px; color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, white); font-size: .69rem; font-weight: 750; text-transform: uppercase; letter-spacing: .07em; }
+.owner { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; color: #536174; background: #eef1f4; font-size: .67rem; font-weight: 800; }
+.card h2 { margin: 0 0 9px; color: #18243a; font-size: 1.08rem; }
+.card h2 a:hover { color: var(--accent); }
+.card p { margin: 0; color: #6f7a8b; font-size: .84rem; line-height: 1.6; }
+.progressLabel { margin-top: auto; display: flex; justify-content: space-between; color: #8791a0; font-size: .72rem; }
+.progressLabel strong { color: #4b5667; }
+.track { height: 5px; margin-top: -11px; overflow: hidden; border-radius: 10px; background: #edf0f3; }
+.track span { height: 100%; display: block; border-radius: inherit; background: var(--accent); }
+.openLink { color: #46546a; font-size: .78rem; font-weight: 700; }
+.openLink span { margin-left: 4px; transition: margin 160ms ease; }
+.openLink:hover span { margin-left: 8px; }
+.blue { --accent: #4f7cff; }
+.green { --accent: #2aab84; }
+.orange { --accent: #dc8c28; }
+.purple { --accent: #8662ce; }

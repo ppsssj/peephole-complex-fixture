@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  min-height: 144px;
+  padding: 22px;
+  overflow: hidden;
+  border: 1px solid #e0e5ea;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(31,42,60,.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  right: -14px;
+  top: -18px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: var(--tone);
+  opacity: .13;
+}
+
+.label { color: #737e8f; font-size: .78rem; font-weight: 650; text-transform: uppercase; letter-spacing: .07em; }
+.value { margin-top: 12px; color: #162139; font: 700 2rem/1 'Georgia', serif; }
+.note { margin-top: auto; color: #8992a0; font-size: .76rem; }
+.blue { --tone: #4f7cff; }
+.green { --tone: #2cb78c; }
+.orange { --tone: #ee9e35; }
+.purple { --tone: #8d67dc; }

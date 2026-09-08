@@ -1,0 +1,74 @@
+[
+  {
+    "id": "atlas-redesign",
+    "name": "Atlas Redesign",
+    "description": "A focused refresh of the customer workspace and navigation system.",
+    "status": "active",
+    "progress": 72,
+    "owner": "Mina Park",
+    "dueDate": "2026-10-18",
+    "tasksCompleted": 34,
+    "tasksTotal": 47,
+    "accent": "blue"
+  },
+  {
+    "id": "signal-reports",
+    "name": "Signal Reports",
+    "description": "Scheduled insights and lightweight executive reporting for operations teams.",
+    "status": "active",
+    "progress": 48,
+    "owner": "Theo Martin",
+    "dueDate": "2026-11-02",
+    "tasksCompleted": 19,
+    "tasksTotal": 40,
+    "accent": "green"
+  },
+  {
+    "id": "mobile-companion",
+    "name": "Mobile Companion",
+    "description": "Responsive workflows for teams reviewing projects away from their desk.",
+    "status": "planning",
+    "progress": 18,
+    "owner": "Iris Chen",
+    "dueDate": "2027-01-15",
+    "tasksCompleted": 7,
+    "tasksTotal": 38,
+    "accent": "orange"
+  },
+  {
+    "id": "billing-migration",
+    "name": "Billing Migration",
+    "description": "Completed migration to consolidated invoices and clearer usage breakdowns.",
+    "status": "completed",
+    "progress": 100,
+    "owner": "Ravi Shah",
+    "dueDate": "2026-08-29",
+    "tasksCompleted": 28,
+    "tasksTotal": 28,
+    "accent": "purple"
+  },
+  {
+    "id": "release-automation",
+    "name": "Release Automation",
+    "description": "A predictable release checklist with preview environments and approvals.",
+    "status": "planning",
+    "progress": 31,
+    "owner": "June Taylor",
+    "dueDate": "2026-12-08",
+    "tasksCompleted": 11,
+    "tasksTotal": 35,
+    "accent": "blue"
+  },
+  {
+    "id": "support-hub",
+    "name": "Support Hub",
+    "description": "A searchable home for playbooks, escalation notes, and customer history.",
+    "status": "completed",
+    "progress": 100,
+    "owner": "Noah Kim",
+    "dueDate": "2026-07-22",
+    "tasksCompleted": 52,
+    "tasksTotal": 52,
+    "accent": "green"
+  }
+]

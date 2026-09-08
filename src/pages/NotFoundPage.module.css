@@ -1,0 +1,7 @@
+.page { min-height: 58vh; display: grid; place-content: center; justify-items: center; text-align: center; }
+.orbit { width: 90px; height: 48px; margin-bottom: 24px; border: 2px solid #bfc9d8; border-radius: 50%; transform: rotate(-22deg); display: grid; place-items: center; }
+.orbit span { width: 20px; height: 20px; border-radius: 50%; background: #f5b544; box-shadow: 40px 4px 0 -5px #4f7cff; }
+.code { color: #4f7cff; font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; }
+.page h1 { max-width: 560px; margin: 10px 0; color: #17223a; font: 700 clamp(2rem, 6vw, 3.5rem)/1.05 Georgia, serif; letter-spacing: -.04em; }
+.page p { color: #768193; }
+.page a { margin-top: 17px; padding: 11px 15px; border-radius: 8px; color: #fff; background: #253752; font-size: .8rem; font-weight: 750; }

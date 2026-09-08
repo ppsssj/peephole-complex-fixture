@@ -1,0 +1,6 @@
+[
+  { "id": 1, "person": "Mina", "action": "moved 3 tasks to review", "project": "Atlas Redesign", "time": "12 min ago" },
+  { "id": 2, "person": "Ravi", "action": "closed the final milestone", "project": "Billing Migration", "time": "48 min ago" },
+  { "id": 3, "person": "June", "action": "added a release checklist", "project": "Release Automation", "time": "2 hr ago" },
+  { "id": 4, "person": "Theo", "action": "shared a report draft", "project": "Signal Reports", "time": "Yesterday" }
+]
