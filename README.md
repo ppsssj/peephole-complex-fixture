@@ -9,7 +9,7 @@
 - A lazy-loaded Settings page that produces a separate JavaScript chunk
 - CSS Modules alongside a global stylesheet
 - Bundled local JSON data with search, status filtering, and derived dashboard totals
-- Imported SVG and Peephole logo assets from `src/assets`, plus a static favicon from `public`
+- Imported SVG assets from `src/assets` and a static SVG from `public`
 - Stateful forms powered by `useReducer`
 - A responsive application shell and a catch-all Not Found page
 

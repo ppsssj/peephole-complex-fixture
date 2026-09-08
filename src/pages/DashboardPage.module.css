@@ -6,7 +6,6 @@
 .sectionHeading span { color: #8690a0; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; }
 .sectionHeading h2 { margin: 0; color: #18243a; font-size: 1.2rem; }
 .sectionHeading img { width: 34px; height: 34px; border-radius: 9px; }
-.sectionHeading .peepholeLogo { object-fit: cover; border: 2px solid #273750; border-radius: 50%; box-shadow: 0 3px 10px rgba(25,37,57,.16); }
 .activity ul { margin: 22px 0 0; padding: 0; list-style: none; display: grid; gap: 17px; }
 .activity li { display: grid; grid-template-columns: 10px 1fr; gap: 10px; color: #647084; font-size: .8rem; line-height: 1.4; }
 .activity li strong { color: #344056; }
