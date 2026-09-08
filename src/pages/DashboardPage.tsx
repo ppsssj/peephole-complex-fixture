@@ -1,5 +1,6 @@
 import activity from '../data/activity.json'
 import projectsData from '../data/projects.json'
+import peepholeLogo from '../assets/peephole-logo.jpg'
 import type { Project } from '../types'
 import { MiniChart } from '../components/MiniChart'
 import { PageHeader } from '../components/PageHeader'
@@ -30,7 +31,7 @@ export function DashboardPage() {
         <article className={styles.activity}>
           <div className={styles.sectionHeading}>
             <div><span>Live log</span><h2>Recent activity</h2></div>
-            <img src="/peephole-mark.svg" alt="Peephole fixture mark" />
+            <img className={styles.peepholeLogo} src={peepholeLogo} alt="Peephole fixture logo" />
           </div>
           <ul>
             {activity.map((item) => (
