@@ -14,7 +14,7 @@ export function AppLayout() {
       <aside className={styles.sidebar}>
         <NavLink to="/" className={styles.brand} aria-label="Northstar dashboard">
           <img src={orbitLogo} alt="" />
-          <span>Northstar</span>
+          <span>testtesttest</span>
         </NavLink>
 
         <nav className={styles.nav} aria-label="Primary navigation">
