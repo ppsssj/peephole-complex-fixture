@@ -1,5 +1,5 @@
 # peephole-complex-fixture
-test 중입니다.
+
 **Peephole production preview integration fixture** — a deliberately realistic, fully static React application used to validate Peephole's `static-v1` production preview pipeline beyond a minimal single-file fixture.
 
 ## What it exercises
